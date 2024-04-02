@@ -1,3 +1,12 @@
+本家のRailsPanelが最新版のrailsで動作しなくなっているので暫定対応です。
+以下のように定義することでpanelが利用できるようになります。
+
+rails7.1.3で動作確認しています。
+
+```ruby
+gem 'meta_request', github: 'pnpk/rails_panel', branch: 'chore/rails-7.1'
+```
+
 RailsPanel
 ===========
 
